@@ -47,3 +47,5 @@ def runSSMCommand(runServer,runRegion,runHotfix2012,runHotfix2019):
 
     command_id = response['Command']['CommandId']
     print("Command Id:" + command_id)
+
+mainFunction()
